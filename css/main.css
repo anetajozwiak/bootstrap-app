@@ -36,6 +36,9 @@
   .article {
     text-align: left;
   }
+  .container p {
+    text-align: left;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -74,7 +77,6 @@ body {
   color: #efefef;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
-  line-height: 180%;
 }
 
 h1 {
@@ -87,6 +89,7 @@ h1 {
 
 .clouds {
   text-align: justify;
+  line-height: 180%;
 }
 
 figure {
@@ -113,6 +116,7 @@ figure {
 .indent {
   text-indent: 5%;
   margin-top: -5px;
+  line-height: 180%;
 }
 
 span {
