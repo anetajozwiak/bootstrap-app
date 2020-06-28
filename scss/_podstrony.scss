@@ -1,0 +1,34 @@
+//Niebo
+.cytat 
+{
+    font-style: italic;
+}
+
+.text p, .text2 p
+{
+    border: 2px solid white;
+    padding: 7px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.text2 p
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+//Barwy
+.barwy p
+{
+    height: 50px;
+}
+
+//Ludowe
+.ludowe 
+{
+	text-align: justify;
+}

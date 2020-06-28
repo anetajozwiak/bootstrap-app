@@ -1,0 +1,122 @@
+@import 'podstrony.scss';
+@import 'media.scss';
+
+body 
+{
+	background-color: rgb(30, 55, 75);
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+//Start
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: rgb(95, 170, 240);
+	margin: 20px;
+	text-align: center;
+}
+
+.clouds
+{
+    text-align: justify;
+}
+
+figure
+{
+	text-align: center;
+}
+
+.clouds img
+{
+    width: 100%;
+    height: 11em;
+}
+
+.clouds p
+{
+	margin-bottom: 15px;
+}
+
+.clouds p:nth-child(5)
+{
+	margin-bottom: 30px;
+}
+
+.clouds figcaption
+{
+	margin-top: 8px;
+}
+
+//Text
+.indent 
+{
+	text-indent: 5%;
+}
+
+span 
+{
+	color: rgb(95, 170, 240);
+}
+
+.article
+{
+	text-align: justify;
+}
+
+//Zdjęcia
+.photo 
+{
+	transition: 2s;
+}
+
+.photo:hover {
+	transform: scale(1.07);
+	opacity: 0.6;
+}
+
+//Navbar
+.navbar
+{
+	min-height: 57px;
+}
+
+.bg-clouds
+{
+	background-color: rgb(95, 170, 240) !important;
+}
+
+.form-inline button
+{
+	color: rgb(95, 170, 240);
+}
+
+//Navbar w podstaronach o chmurach
+aside
+{
+	color: rgb(95, 170, 240);
+}
+
+.list-group-item-dark 
+{
+	padding: 6px;
+	color: white;
+	background-color: rgb(30, 55, 75);
+	border: 2px solid rgb(95, 170, 240);
+	
+}
+
+.list-group .active
+{
+	background-color: rgb(95, 170, 240) !important;
+	border: 0;
+	cursor: default;
+}
+
+.list-group-item-dark:hover
+{
+	background-color: rgb(95, 170, 240) !important;
+}
+

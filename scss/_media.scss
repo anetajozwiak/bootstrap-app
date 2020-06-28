@@ -1,0 +1,57 @@
+@media (max-width: 575px)
+{
+	.clouds h1
+	{
+		font-size: 30px;
+	}
+	.clouds header 
+	{
+		font-size: 15px;
+		text-align: left;
+	}
+	.article 
+	{
+		text-align: left;
+	}
+}
+
+
+@media (min-width: 1200px)
+{
+  .img-thumbnail
+  {
+    max-height: 429px;
+  }
+}
+
+@media (max-width: 575px)
+{
+    h1
+    {
+        font-size: 30px;
+    }
+    .text p , .text2 p{
+        font-size: 12px;
+    }
+    .wstep 
+    {
+        text-align: left;
+    }
+}
+
+@media (max-width: 575px)
+{
+    .barwy p
+    {
+        height: 70px;
+    }
+}
+
+@media (max-width: 575px)
+{
+	.ludowe
+	{
+		font-size: 15px;
+		text-align: left;
+	}
+}
