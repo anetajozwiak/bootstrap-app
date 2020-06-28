@@ -6,7 +6,8 @@ body
 	background-color: rgb(30, 55, 75);
 	color: #efefef;
     font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+	font-size: 17px;
+	line-height: 180%;
 }
 
 //Start
@@ -54,6 +55,7 @@ figure
 .indent 
 {
 	text-indent: 5%;
+	margin-top: -5px;
 }
 
 span 
@@ -97,6 +99,7 @@ span
 aside
 {
 	color: rgb(95, 170, 240);
+	margin-top: -15x;
 }
 
 .list-group-item-dark 

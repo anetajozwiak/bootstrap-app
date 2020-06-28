@@ -74,6 +74,7 @@ body {
   color: #efefef;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
+  line-height: 180%;
 }
 
 h1 {
@@ -111,6 +112,7 @@ figure {
 
 .indent {
   text-indent: 5%;
+  margin-top: -5px;
 }
 
 span {
@@ -145,6 +147,7 @@ span {
 
 aside {
   color: #5faaf0;
+  margin-top: -15x;
 }
 
 .list-group-item-dark {
